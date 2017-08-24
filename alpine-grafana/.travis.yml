@@ -1,0 +1,15 @@
+---
+
+sudo: required
+
+services:
+  - docker
+
+before_install:
+  - docker build -t docker-alpine-grafana:4.4.2-r0 .
+
+install:
+    - docker run -d --name docker-alpine-grafana docker-alpine-grafana:4.4.2-r0
+
+script:
+  - docker ps | grep -q docker-alpine-grafana
