@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.org/mmonnier/docker-alpine-grafana.svg?branch=master)](https://travis-ci.org/mmonnier/docker-alpine-grafana)
 [![Docker Repository on Quay](https://quay.io/repository/mmonnier/docker-alpine-grafana/status "Docker Repository on Quay")](https://quay.io/repository/mmonnier/docker-alpine-grafana)
-[![Docker Pulls](https://img.shields.io/docker/pulls/mmonnier/alpine-grafana.svg?maxAge=604800)](https://hub.docker.com/r/mmonnier/docker-alpine-grafana)
+[![Docker Stars](https://img.shields.io/docker/stars/_/ubuntu.svg?style=flat-square)]((https://hub.docker.com/r/mmonnier/alpine-grafana)
+[![Docker Pulls](https://img.shields.io/docker/pulls/mashape/kong.svg?style=flat-square)](https://hub.docker.com/r/mmonnier/alpine-grafana)
 
 docker-alpine-grafana
 =====================
