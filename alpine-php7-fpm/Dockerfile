@@ -1,7 +1,8 @@
 FROM alpine:3.6
 
-MAINTAINER Matthieu Monnier <matthieu.monnier@enalean.com>
+LABEL maintainer Matthieu Monnier <monnier.matthieu@gmail.com>
 
-RUN apk add --no-cache php7-fpm
+RUN apk add --no-cache php7-fpm php7-pdo_mysql php7-mysqli
 
-ENTRYPOINT [ "/usr/sbin/php-fpm7", "-F", "-O", "-c", "/etc/php7/php-fpm.conf", ]
+ENTRYPOINT [ "/usr/sbin/php-fpm7", "-F", "-O", "-c" ]
+CMD [ "/etc/php7/php-fpm.conf" ]
