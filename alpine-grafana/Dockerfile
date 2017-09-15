@@ -2,7 +2,7 @@ FROM alpine:3.6
 
 LABEL maintainer Matthieu Monnier <matthieu.monnier@enalean.com>
 
-ENV PKGVER="4.4.3"
+ENV PKGVER="4.5.0"
 ENV GOPATH="/srv/go" 
 ENV GO_SRC="src/github.com/grafana/grafana"
 ENV GF_HOME="/usr/share/grafana"

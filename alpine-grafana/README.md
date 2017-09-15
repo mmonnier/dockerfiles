@@ -12,7 +12,7 @@ Build your container
 --------------------
 * Clone this repo and build
 ```
-# build -t alpine-grafana:4.4.2-r0 .
+# build -t alpine-grafana:4.5.0-r0 .
 ```
 
 Running your container
@@ -27,12 +27,12 @@ Running your container
     -v ${VOLUME_2}:/var/lig/grafana \
     -v ${VOLUME_3}:/var/log/grafana \
     -p 3000:3000 \
-    alpine-grafana:4.4.2-r0
+    alpine-grafana:4.5.0-r0
 ```
 
 * The size of image
 ```
 # docker images
 REPOSITORY                        TAG                 IMAGE ID            CREATED             SIZE
-alpine-grafana                    4.4.2-r0            a3459f70f590        2 minutes ago       83 MB
+alpine-grafana                    4.5.0-r0            1298a8b81d27        2 minutes ago       83 MB
 ```
